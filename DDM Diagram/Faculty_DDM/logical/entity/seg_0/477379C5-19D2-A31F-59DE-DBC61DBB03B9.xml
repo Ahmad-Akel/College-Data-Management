@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="477379C5-19D2-A31F-59DE-DBC61DBB03B9" name="Faculty">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:29:50 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0DB72386-FE74-53B5-D542-93A87F74A26C">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:30:06 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="974B41CF-9F86-C7DF-9C16-16BB3A3577C8">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:32:56 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="CC27B826-E5FA-53C3-5BB6-6DBC5CEDD0E3">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:37:53 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="6C28FBDC-76E4-5182-DB07-BF7D683C75D9">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:38:22 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="16A78073-4770-438F-6FDC-4D8BB09365FF">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:54:14 UTC</createdTime>
+<generatorID>B691E34F-C846-AFCC-937C-697BC38B0C97</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<referedAttribute>A5D787D6-9F9E-B4F2-5AA8-79050849CB95</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20474BEC-3DF2-BA73-0E52-4D6726931523" name="Faculty PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:32:47 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DB72386-FE74-53B5-D542-93A87F74A26C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

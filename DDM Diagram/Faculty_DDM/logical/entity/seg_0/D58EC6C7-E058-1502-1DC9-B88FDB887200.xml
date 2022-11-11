@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D58EC6C7-E058-1502-1DC9-B88FDB887200" name="Department">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:40:18 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="DD85992A-9E45-2E51-6E34-28C314600C25">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:40:26 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A4D5BE35-8FE6-9091-AA87-6E9051361E51">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:40:52 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="9B19BDCF-7DE1-8693-2FDE-DC55CED3C272">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:52:59 UTC</createdTime>
+<generatorID>61FFB8F2-B7C6-91FA-88A1-EC9A8417EE91</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<referedAttribute>0DB72386-FE74-53B5-D542-93A87F74A26C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C23BBB4-7655-7597-3BCC-92C844968FEA" name="Department PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:40:49 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD85992A-9E45-2E51-6E34-28C314600C25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

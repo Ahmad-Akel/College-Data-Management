@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5DF76B0-E202-EF5C-CBA2-5BC30C54C8AE" name="Course">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:41:57 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="06290D20-4F9C-D6CA-B4C9-9D475AE12DE7">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:42:03 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="FB7A88C5-463D-93BF-D60E-B674B90E6845">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:42:24 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Shortcut" id="A6932B77-C51F-AB7F-C3BA-CC3E65ED51B8">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:42:48 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grade" id="288680A0-036D-0DD7-9516-069C2B5540E5">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:43:19 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="8C6CB6E2-9F61-2AE3-7922-A835EF10908B">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:43:44 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="A7014D74-3618-5294-6D5A-AEA9DEA26528">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:53:35 UTC</createdTime>
+<generatorID>9DF8B31B-3618-A3AA-DB46-6AFD292E4592</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<referedAttribute>DD85992A-9E45-2E51-6E34-28C314600C25</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99BA3974-5BC1-BA98-2A7D-EE41E18168F9" name="Course PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-11 05:42:20 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06290D20-4F9C-D6CA-B4C9-9D475AE12DE7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
