@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="836C6F53-17A1-9B91-38B7-82459C04DE12" name="Student">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>E4F1E371-AA06-8C72-5770-F97869F71E2C</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A73B8BC6-AAF6-5296-BB85-FBADAA6E85F4">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>2B8E8275-E4B9-AE8A-6A0F-1EB6ED07EDF2</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="A84EE495-36F2-268B-49CC-0C110439C9BC">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>9FEAAA11-D14E-4353-AC54-A52260C27A1D</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="B4FAA9F6-F0F3-0544-3A6D-E426DF3B9209">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>75C6799C-00D8-C71E-4E3B-1BB071A99BC2</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="A513A2BE-C7AE-6A76-278E-18EAA0E38BA3">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>2AC1F851-BA9D-C5DF-D244-52F89B62E047</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="095C92FF-F6AF-BEFC-97E5-D46ED3DF1E46">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>C00F88D5-5256-709E-01D8-80AB71014057</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_ID" id="24381880-3C05-A206-E71C-7DE7CC50672F">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>61140953-BE83-8B09-8F6A-93BC9705B0C7</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D600309-D4F4-1E15-AC5D-D87D88F7BB23" referredColumn="87433FC8-314C-126D-2AE7-6B486F99F894"/>
+</associations>
+</Column>
+<Column name="Address_ID" id="A5651893-7A50-63EF-A87F-8B1EDF274646">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>85B156FE-86E6-8C0E-E6A9-4DF79C58887E</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB1BF23A-5091-F62A-B644-A3F32693113F" referredColumn="266B0E50-CD29-2E74-D731-60EA04F2EAC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7550A20-58A2-0EAA-1972-815335094F0C" name="Student_PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>F4311A89-676C-F918-BE50-21092100B995</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A73B8BC6-AAF6-5296-BB85-FBADAA6E85F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="208005F1-CED9-FEB1-A22A-06E5E3F6BB94" name="Student_Department_FK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>B9911013-D9AC-35E1-D7B4-F0241B2F31F8</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24381880-3C05-A206-E71C-7DE7CC50672F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5268A8D4-217B-FA74-D666-496D9E2FCE7F" name="Student_Address_FK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>CBF86162-14FC-2774-8E0D-05221B692DFB</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5651893-7A50-63EF-A87F-8B1EDF274646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

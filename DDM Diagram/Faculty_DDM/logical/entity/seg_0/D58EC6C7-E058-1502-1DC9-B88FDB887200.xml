@@ -54,7 +54,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>18</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -68,6 +68,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DD85992A-9E45-2E51-6E34-28C314600C25</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="18ABD473-963E-D4E6-FECD-44CC81B1FB3F" name="Department_Unique">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 01:55:48 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<engineerTo>
+<item key="FC0688A9-246B-4D2D-C567-152CBF2E4063" value="true"/>
+</engineerTo>
+<newElementsIDs>A4D5BE35-8FE6-9091-AA87-6E9051361E51</newElementsIDs>
+<usedAttributes>
+<attributeRef>A4D5BE35-8FE6-9091-AA87-6E9051361E51</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

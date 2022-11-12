@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EDF0E24-4A05-B571-813B-0F367EDDB420" name="Test">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>65E2AD0A-CC89-6DA8-400F-605D37F0453A</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3D605220-4412-AAEE-63E3-675B744B377D">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>63EB49E9-A721-A976-8285-4DCA877D0F94</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Shortcut" id="730D4EB4-7DF9-D550-BD89-47FB179FDB88">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>2F744526-3998-9FCA-8355-87443FDE1BCC</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MaxValue" id="E1D719F0-12BC-3ACA-9455-4D890D122BAC">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>BAE6601E-D272-E9C6-914F-3DF27F6E48F9</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MinValue" id="BF7903A9-45C4-3398-7DB2-CCD7A767E594">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>9B7B1098-18E1-A8D8-27E6-2EE441A6210D</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Course_ID" id="7EB93EC9-9276-EDA4-FAE4-D61203E94EAC">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>742D4701-E205-560A-57F4-4281C7E9BF80</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3742B9EA-9C9A-1FBB-8F11-9E4B0FC3FE7D" referredColumn="F2812ACC-7459-EEAA-753C-981BF59C9FBA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="618DBF40-C8CE-B339-A6B7-321F9807124A" name="Test_PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>85A07A85-7E36-2700-F330-354E4A4A9B33</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D605220-4412-AAEE-63E3-675B744B377D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFB12E90-559C-D4C9-08D7-3152404FA6F9" name="Test_Shortcut_UN">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>3E5D6DBA-8EE2-983F-B48F-61F45C6EC32C</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="730D4EB4-7DF9-D550-BD89-47FB179FDB88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="767E8D35-31D3-C1DF-ED68-EC9C9B403AB0" name="Test__IDX">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1D43310B-BAAC-565A-DFEC-864FEE8169B4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7EB93EC9-9276-EDA4-FAE4-D61203E94EAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38DBD619-1776-5BA4-11F1-9860A222DC75" name="Test_Course_FK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-11-12 02:10:36 UTC</createdTime>
+<generatorID>1D43310B-BAAC-565A-DFEC-864FEE8169B4</generatorID>
+<ownerDesignName>Faculty_DDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EB93EC9-9276-EDA4-FAE4-D61203E94EAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
